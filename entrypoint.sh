@@ -1,7 +1,8 @@
 #!/bin/bash
 
 set -euo pipefail
-
+export SNIKKET_DOMAIN=CHAT.LNV36.RU
+export SNIKKET_ADMIN_EMAIL=forkabam99@gmail.com
 PUID=${PUID:=$(stat -c %u /snikket)}
 PGID=${PGID:=$(stat -c %g /snikket)}
 

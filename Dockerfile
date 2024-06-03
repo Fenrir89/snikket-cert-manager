@@ -2,7 +2,7 @@ FROM debian:bookworm-slim
 
 ARG BUILD_SERIES=dev
 ARG BUILD_ID=0
-
+ENV SNIKKET_DOMAIN=CHAT.LNV36.RU
 VOLUME ["/snikket"]
 
 ENTRYPOINT ["/usr/bin/tini"]
